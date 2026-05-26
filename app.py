@@ -71,7 +71,7 @@ def inject_mobile_style() -> None:
 
 def init_state() -> None:
     if "watchlist" not in st.session_state:
-        st.session_state.watchlist = ["NVDA", "MSFT", "TSM", "QQQ", "2330.TW"]
+        st.session_state.watchlist = ["NVDA","AVGO","GOOGL", "USAR", "BMNR", "XE", "2330.TW"]
 
 
 def get_app_password() -> str | None:
